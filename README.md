@@ -17,7 +17,7 @@ and an SQL database.
   - ```python manage.py startapp weather```
 
 
-#### NOTE:
+> [!NOTE]
 > On project start-up an SQLite database file is created 'soqo_weather.db'
 
 ### API DOC
