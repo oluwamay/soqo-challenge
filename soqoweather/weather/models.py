@@ -12,4 +12,13 @@ class Weather(Base):
     description = Column(String)
 
 
+class WeatherTest:
+
+    def __init__(self, city, date, temperature, description):
+        self.city = city
+        self.date = date
+        self.temperature = temperature
+        self.description = description
+
+
 Base.metadata.create_all(engine)

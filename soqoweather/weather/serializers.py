@@ -17,5 +17,3 @@ class WeatherSerializers(serializers.Serializer):
         session.refresh(weather)
         session.close()
         return weather
-
-
