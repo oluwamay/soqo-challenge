@@ -13,9 +13,10 @@ and an SQL database.
   - ```pip install django djangorestframework sqlalchemy```
 * Run unit tests to ensure that the app is working as expected
   - ```python manage.py test```
+> [!NOTE]
+> Navigate to ~/soqo-challenge/sogoweather directory
 * Run the application
-  - ```python manage.py startapp weather```
-
+  - ```python3 manage.py runserver 9092```
 
 > [!NOTE]
 > On project start-up an SQLite database file is created 'soqo_weather.db'
@@ -44,7 +45,3 @@ Status 200 Ok
     "description": "Chilled atmosphere"
   }
 ```
-
-
-
-
