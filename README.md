@@ -37,10 +37,7 @@ Status code: 201 Created\
 BODY
 ```json
 {
-    "city": "Paris",
-    "date": "2023-11-13",
-    "temperature": 10.5,
-    "description": "Chilled atmosphere"
+    "id": 2
   }
 ```
 
