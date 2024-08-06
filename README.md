@@ -14,7 +14,7 @@ and an SQL database.
 * Run unit tests to ensure that the app is working as expected
   - ```python manage.py test```
 > [!NOTE]
-> Navigate to ~/soqo-challenge/sogoweather directory
+> Ensure you navigate to ~/soqo-challenge/sogoweather directory where the manage.py is located
 * Run the application
   - ```python3 manage.py runserver 9092```
 
@@ -32,7 +32,17 @@ REQUEST
     "description": "Chilled atmosphere"
   }
 ```
-RESPONSE STATUS CODE: 201 Created
+RESPONSE\
+Status code: 201 Created\
+BODY
+```json
+{
+    "city": "Paris",
+    "date": "2023-11-13",
+    "temperature": 10.5,
+    "description": "Chilled atmosphere"
+  }
+```
 
 #### GET /weather/Paris
 Response
